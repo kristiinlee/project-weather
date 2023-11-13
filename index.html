@@ -12,23 +12,31 @@
 <body>
     <div class="app">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city.." required />
-            <input type="submit" value="Search" />
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city.." required class="search-form-input" />
+            <input type="submit" value="Search" class="search-form-button" />
         </form>
     </header>
-    <div>
-        <h1>
-        Paris 
-        </h1>
-        <p>Monday 7:31, overcast clouds
+    <main>
+        <div class="app-data">
+            <div>
+                <h1 class="app-city">
+                Paris 
+                </h1>
+            <p class="app-details">Monday 7:31, overcast clouds
             <br />
-        Humidity: 93%, Wind: 7.72km/h
-        </p>
-    </div>
-    <div>
-        ☁️ 16°C 
-    </div>
+            Humidity: <strong>93%</strong>, Wind: <strong>7.72km/h</strong>
+            </p>
+            </div>
+            <div class="app-temp-container">
+            <div class="weather-icon">☁️</div> 
+            <div class="app-temp-value">16 </div>
+            <div class="app-temp-unit">°C </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </main>
     <footer>Coded by
         <a href="https://github.com/kristiinlee"> Kristin Jones</a> 
         is <a href="https://github.com/kristiinlee/project-weather">open-sourced on GitHub</a>
