@@ -74,9 +74,9 @@ main {
     margin-left: 10px;
 }
 
-.weather-icon {
-    font-size: 45px;
-    margin-top: 10px;
+.weather-app-icon {
+    width: 80px;
+    height: 80px;
 }
 
 .app-temp-unit {
