@@ -91,3 +91,12 @@ footer {
     font-size: 13px;
     color: rgba(0, 0, 0, 0.8);
 }
+
+.weather-forecast {
+    text-align: center;
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+}
+
