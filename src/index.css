@@ -94,9 +94,8 @@ footer {
 
 .weather-forecast {
     display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    margin-top: 20px;
-   padding: 0 50px;
 }
 
 .weather-forecast-date {
@@ -107,8 +106,10 @@ footer {
 }
 
 .weather-forecast-icon {
-    font-size: 35px;
-    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
 }
 
 .weather-forecast-temps {
@@ -120,5 +121,5 @@ footer {
 }
 
 .weather-forecast-temp {
-    padding: 0 10px;
+    padding: 0 0px;
 }
